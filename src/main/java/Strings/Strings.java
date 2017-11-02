@@ -7,7 +7,7 @@ public class Strings {
 
     //Concatenate two strings together that are passed in the parameters
     public String concatenation(String one, String two){
-        return null;
+        return one + two;
     }
 
     //Concatenate a string and a integer together that are passed in the parameters

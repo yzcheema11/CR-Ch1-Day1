@@ -6,8 +6,9 @@ package HelloWorld;
 public class HelloWorld {
 
     //Should return hello world as a string
-    public String helloWorld(){
-        return null;
+    public String greeting(){
+        String hello = "Hello World";
+        return hello ;
     }
 
 }

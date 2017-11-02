@@ -15,9 +15,9 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void TestHelloWorld(){
+    public void TestGreeting(){
         String expected = "Hello World";
-        String actual = this.helloWorld.helloWorld();
+        String actual = this.helloWorld.greeting();
 
         assertEquals(expected,actual);
     }
